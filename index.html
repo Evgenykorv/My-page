@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyFirstPage</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <title>MyFirstPage</title>
+    <script src="./js/main.js"></script>
 </head>
 <body>
-    <header class="header"> 
+    <header class="header" > 
         <div class="wrapper">
             <div class="header_wrapper">
                 <div class="header_logo">
@@ -29,7 +31,16 @@
                             <a href="#!" class="header_link">контакты</a>
                         </li>
                     </ul>
+                    <div class="header_nav_close">
+                        <span class="header_nav_close_line"></span>
+                        <span class="header_nav_close_line"></span>
+                    </div>
                 </nav>
+                <div class="header_burger burger">
+                    <span class="burger_line burger_line_first"></span>
+                    <span class="burger_line burger_line_second"></span>
+                    <span class="burger_line burger_line_third"></span>
+                </div>
             </div>          
         </div>
     </header>
@@ -60,8 +71,8 @@
             <div class="wrapper">
                 <div class="wrapper_middle">
                     
-                    <h1 class="middle_title"> Немного информации о себе. Я являюсь студентом ЛГТУ направления “прикладной математики”. В свободное время я занимаюсь коллекционированием редких монет. На данный момент моя коллекция не очень большая, но она постоянно расширяется и изменяется. Я покупаю и обмениваю различные монеты со своими друзьями и другими коллекционерами. Предлагаю посмотреть мою коллекцию.</h1>
-                    <img class="middle_img" src="./img/money/moneybig.png" alt="alotofmoney" height="600">
+                    <h1 class="middle_title"> Немного информации о себе. Я являюсь студентом ЛГТУ направления “прикладной математики”. В свободное время я люблю собирать редкие монеты. На данный момент моя коллекция не очень большая, но она постоянно расширяется и изменяется. Я покупаю и обмениваю различные монеты со своими друзьями. Предлагаю посмотреть мою коллекцию.</h1>
+                    <img class="middle_img" src="./img/money/moneybig.png" alt="alotofmoney" >
                 </div>
             </div>
          </section>
@@ -71,7 +82,7 @@
 
 
 
-         
+
          <section class="next_middle">
             <div class="wrapper">
                 <div class="wrapper_next_middle">
@@ -99,16 +110,20 @@
          <section class="end">
             <div class="wrapper">
                 <div class="end_wrapper">
-                    <p class="end_kontakt">
-                        Контакты:
-                    </p>
-                    <ul class="end_kont_list">
-                        <li class="end_item">Телефон: +7-(999)-789-23-30</li>
-                        <li class="end_item">Почта: Corotkov2000@Yandex.ru</li>
-                        <li class="end_item">whatsapp: +7-(903)-033-27-68</li>
-                    </ul>
+                   <div class="wrapper_end_kont">
+                        <p class="end_kontakt">
+                            Контакты:
+                        </p>
+                   </div>
+                   
+                    <div class="wrapper_end_item">      
+                        <ul class="end_kont_list">
+                            <li class="end_item">Телефон: +7-(999)-789-23-30</li>
+                            <li class="end_item">Почта: Corotkov2000@Yandex.ru</li>
+                            <li class="end_item">whatsapp: +7-(903)-033-27-68</li>
+                        </ul>
+                    </div>
                 </div>
-             
             </div>
          </section>
     </main>
